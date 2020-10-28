@@ -1,19 +1,39 @@
-/*Google font*/
-@font-face {font-family: Roboto; src: url(/Fonts/Roboto/Roboto-Regular.ttf);}
+/* Google font */
+@font-face {font-family: Indie_Flower; src: url(/Fonts/Indie_Flower/IndieFlower-Regular.ttf);}
 
-.fullPage {width: 100%;}
-
-
-/* Top menu*/
+/* Top menu */
 li img {width: 50px; float: left; padding-left: 9%; margin: 10px;}
 ul {list-style-type: none; overflow: hidden; background-color:#333333; padding-right:9%;}
+li a { display: block; font-size: x-large; letter-spacing: 0.2em; font-weight: bolder; text-decoration: underline; color:#ff0099; font-family: Indie_Flower, Courier, sans-serif; float: right; margin: 15px 25px;}
 
-li a { display: block; font-size: x-large;text-decoration: underline; color:#ff0099; font-family: Roboto, Courier; float: right; margin: 15px 25px;}
+/* Divs */
+.content{background-image: url(assets/topography.png); height: max-content; font-family: Courier, sans-serif;}
+.contentText{width: 80%; margin: 0 auto; }
 
-.content{background-image: url(assets/topography.png); height: 1500px; font-family: Courier;}
-.contentText{width: 80%; margin: 0 auto;}
+/* Content */
+ h1{font-size: 5em; padding-top: 80px;} 
+.job{font-size: 3em;  color:#ff0099; font-weight: bolder;}
+.aboutMe{font-size: 2em; font-weight:bolder }
+.separator{font-size: 2em;  text-align: center; padding: 60px;}
+.title {text-align: center; font-size: 3em; font-weight: bolder;}
+.header {font-size: 2em; font-weight: bolder; padding-top: 50px;}
+.text {font-size: 1.5em; font-weight: bolder;}
 
-h1{font-size: 5em; padding-top: 80px;} 
-#job{font-size: 3em;  color:#ff0099; font-weight: bolder; margin-bottom: 1px;}
-#aboutMe{font-size: 2em; font-weight:bolder }
-#separator{font-size: 2em;  text-align: center; padding: 80px;}
+/* Back to the top */
+#up { display:block; margin-left: auto;margin-right:auto;}
+
+/* Content links */
+.link {font-size: x-large; letter-spacing: 0.2em; font-weight: bolder; text-decoration: underline; color:#ff0099; font-family: Indie_Flower, Courier, sans-serif;}
+
+/*Content on smartphones*/
+@media screen and (max-width: 815px) { 
+ li img {margin-top: 25px;}       
+ li a {margin: 0px 10px;} 
+ h1{font-size: 2em;}
+ .job{font-size: 1.5em;} 
+ .aboutMe{font-size: 1.2em;}
+ .separator{padding: 5px;}
+ .title{font-size: 1.5em;}
+ .header{font-size: 1.3em; padding-top: 20px;}  
+ .text{font-size: 1em;}    
+}
