@@ -1,0 +1,19 @@
+/*Google font*/
+@font-face {font-family: Roboto; src: url(/Fonts/Roboto/Roboto-Regular.ttf);}
+
+.fullPage {width: 100%;}
+
+
+/* Top menu*/
+li img {width: 50px; float: left; padding-left: 9%; margin: 10px;}
+ul {list-style-type: none; overflow: hidden; background-color:#333333; padding-right:9%;}
+
+li a { display: block; font-size: x-large;text-decoration: underline; color:#ff0099; font-family: Roboto, Courier; float: right; margin: 15px 25px;}
+
+.content{background-image: url(assets/topography.png); height: 1500px; font-family: Courier;}
+.contentText{width: 80%; margin: 0 auto;}
+
+h1{font-size: 5em; padding-top: 80px;} 
+#job{font-size: 3em;  color:#ff0099; font-weight: bolder; margin-bottom: 1px;}
+#aboutMe{font-size: 2em; font-weight:bolder }
+#separator{font-size: 2em;  text-align: center; padding: 80px;}
